@@ -28,5 +28,18 @@
     "screenshots": [
       "https://lh3.googleusercontent.com/H3yyqjQCluxSUXriLv8UTweMLQaHvAUMkABWQRS1Vh0JtmVpaDm275MBa1GpIqr7IGyq2Q_MOkIk-C9X5ONEqPun_Z0MCaItwOt-ABMVzQbW0H9P8vJL7GSpamkYmtG2qw=w1280"
     ]
+  },
+  {
+    "name": "BTC Map",
+    "url": "https://btcmap.org",
+    "icon": "https://btcmap.org/images/logo.svg",
+    "description": "Spend sats, globally",
+    "tags": ["BTC", "map"],
+    "npub": "npub1864jglrrhv6alguwql9pqtmd5296nww5dpcewapmmcazk8vq4mks0tt2tq",
+    "lnurl": "btcmap@getalby.com",
+    "repo": "https://github.com/teambtcmap",
+    "screenshots": [
+      "https://btcmap.org/images/hero-mobile-example.png"
+    ]
   }
 ]
