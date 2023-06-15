@@ -35,7 +35,9 @@ ${tagsOptions}
   </header>
   <main>
 ${cards}
+<a href = "https://github.com/BTCWebApp/BTCWeb.App">Help us improve this open source project</a>
   </main>
+  
   `;
 
 const search = () => {
