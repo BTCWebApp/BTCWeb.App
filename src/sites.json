@@ -16,4 +16,17 @@
       "https://farmfoodmap.org/screenshot5.png"
     ]
   }
+    {
+    "name": "Sats-Man",
+    "url": "http://sats-man.com",
+    "icon": "https://lh3.googleusercontent.com/Rc8SQ-JEdbn9zb6OuH6mym-THt8DXuSAF64o8YckU340807hZyGOqx3vp4M3SX01vbmk8szyQnMdlLxnJ4qJy41NPut2EnorlFzKYV4PGJ5ju5mcQLBzM_uX-TIJmY0SJQ=w1280",
+    "description": "Win bitcon and avoid the shitcoins in this lightning enabled take on a classic retro game.",
+    "tags": ["BTC", "game"],
+    "npub": "npub12ay0hehvq3p7r7zmvc63l6wvyutszn8e8zkvj688kgxfpxvqy3fsu3ryxk",
+    "lnurl": "gamertron@zbd.gg",
+    "repo": "https://github.com/Game-r-tron",
+    "screenshots": [
+      "https://lh3.googleusercontent.com/H3yyqjQCluxSUXriLv8UTweMLQaHvAUMkABWQRS1Vh0JtmVpaDm275MBa1GpIqr7IGyq2Q_MOkIk-C9X5ONEqPun_Z0MCaItwOt-ABMVzQbW0H9P8vJL7GSpamkYmtG2qw=w1280"
+    ]
+  }
 ]
