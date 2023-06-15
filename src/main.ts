@@ -27,9 +27,8 @@ tagsList.forEach((tag: string) => {
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = /*html*/ `
   <header>
-    <h1>BTC Web Apps</h1>
+    <h1><a href="https://github.com/BTCWebApp/BTCWeb.App" target="_blank" rel="noopener noreferrer">BTC WEB APP</a></h1>
     <input type="search" name="search" id="search" placeholder="search..." list="tags" />
-    <!-- <input type="text" list="tags" placeholder="tags" id="tag"/> -->
     <datalist name="tags" id="tags" multiple=false>
 ${tagsOptions}
     </datalist>
@@ -43,26 +42,9 @@ const search = () => {
   const searchText = (
     document.querySelector<HTMLInputElement>('#search')!.value || ''
   ).toLowerCase();
-  // const tag = document.querySelector<HTMLInputElement>('#tag')!.value;
-  console.log('searchText :>> ', searchText);
-  // console.log('tag :>> ', tag);
   document.querySelectorAll('article').forEach((pwa) => {
-    // console.log(
-    //   'pwa.dataset.tags?.includes(tag) :>> ',
-    //   pwa.dataset.tags?.includes(tag)
-    // );
-    console.log(
-      'pwa.dataset.text?.includes(searchText) :>> ',
-      pwa.dataset.text?.includes(searchText)
-    );
-    const notFound =
-      !(
-        // pwa.dataset.tags?.includes(tag) ||
-        pwa.dataset.text?.includes(searchText)
-      );
-    console.log('notFound :>> ', notFound);
+    const notFound = !pwa.dataset.text?.includes(searchText);
     pwa.classList.toggle('hidden', notFound);
   });
 };
 document.querySelector<HTMLInputElement>('#search')!.oninput = search;
-// document.querySelector<HTMLInputElement>('#tag')!.oninput = search;
