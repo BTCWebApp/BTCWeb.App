@@ -35,7 +35,7 @@ ${tagsOptions}
   </header>
   <main>
 ${cards}
-<a href = "https://github.com/BTCWebApp/BTCWeb.App">Link to repository of this wesite</a>
+<a href = "https://github.com/BTCWebApp/BTCWeb.App">Help us improve this open source project</a>
   </main>
   
   `;
