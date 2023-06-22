@@ -1,6 +1,20 @@
 import './style.css';
 import sites from './sites.json';
 
+const registerServiceWorker = async () => {
+  if ('serviceWorker' in navigator) {
+    try {
+      await navigator.serviceWorker.register('/sw.js', {
+        scope: '/',
+      });
+    } catch (error) {
+      console.error(`Registration failed with ${error}`);
+    }
+  }
+};
+
+registerServiceWorker();
+
 const tagsList = new Set<string>();
 let tagsOptions = ``;
 let cards = ``;
